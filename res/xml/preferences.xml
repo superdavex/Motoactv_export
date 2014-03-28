@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:key="pref_local_TCX"
+        android:title="Local TCX"
+        android:summary="Create Local TCX file on SD card."
+        android:defaultValue="true" />
+   <CheckBoxPreference
+        android:key="pref_use_googledrive"
+        android:title="Google Drive"
+        android:summary="Upload workouts to Google Drive"
+        android:defaultValue="false" />
+    <CheckBoxPreference
+        android:key="pref_use_runkeeper"
+        android:title="RunKeeper"
+        android:summary="Upload workouts to RunKeeper."
+        android:defaultValue="false" />
+    <CheckBoxPreference
+        android:key="pref_use_runkeeper_facebook"
+        android:title="Facebook"
+        android:summary="Post to FaceBook using Runkeeper."
+        android:dependency="pref_use_runkeeper"
+        android:defaultValue="false" />
+    <CheckBoxPreference
+        android:key="pref_use_dropbox"
+        android:title="DropBox"
+        android:summary="Upload tcx to Dropbox."
+        android:defaultValue="false" />
+     <CheckBoxPreference
+        android:key="pref_disable_wifi_onexit"
+        android:title="Disable WiFi"
+        android:summary="Disable WiFi on exit."
+        android:defaultValue="true" />
+   
+</PreferenceScreen>

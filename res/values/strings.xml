@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">MOTOACTV_Export</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Workout Export</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_activity_web">WebActivity</string>
+
+</resources>
